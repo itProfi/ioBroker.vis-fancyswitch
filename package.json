@@ -1,53 +1,51 @@
 {
-  "name": "iobroker.vis-fancyswitch",
-  "description": "fancyswitch Widgets for ioBroker.vis",
-  "version": "1.1.0",
-  "author": {
-    "name": "bluefox",
-    "email": "dogafox@gmail.com"
-  },
-  "contributors": [
-    "bluefox <dogafox@gmail.com>",
-    "Apollon77 <ingo@fischer-ka.de>"
-  ],
-  "homepage": "https://github.com/ioBroker/ioBroker.vis-fancyswitch",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ioBroker/ioBroker.vis-fancyswitch"
-  },
-  "licenses": [
-    {
-      "type": "Apache 2.0",
-      "url": "https://github.com/ioBroker/ioBroker.vis-fancyswitch/blob/master/LICENSE"
+    "name": "iobroker.vis-fancyswitch",
+    "description": "fancyswitch Widgets for ioBroker.vis",
+    "version": "1.1.1",
+    "author": {
+        "name": "bluefox",
+        "email": "dogafox@gmail.com"
+    },
+    "contributors": [
+        "bluefox <dogafox@gmail.com>",
+        "Apollon77 <ingo@fischer-ka.de>"
+    ],
+    "homepage": "https://github.com/itProfi/ioBroker.vis-fancyswitch",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itProfi/ioBroker.vis-fancyswitch"
+    },
+    "licenses": [{
+        "type": "Apache 2.0",
+        "url": "https://github.com/itProfi/ioBroker.vis-fancyswitch/blob/master/LICENSE"
+    }],
+    "keywords": [
+        "ioBroker",
+        "GUI",
+        "DashUI",
+        "web interface",
+        "home automation",
+        "SCADA",
+        "fancyswitch GUI"
+    ],
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-replace": "^1.0.1",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-jscs": "^3.0.1",
+        "grunt-http": "^2.2.0",
+        "mocha": "^4.1.0",
+        "chai": "^4.1.2"
+    },
+    "bugs": {
+        "url": "https://github.com/ioBroker/ioBroker.vis-fancyswitch/issues"
+    },
+    "main": "widgets/fancyswitch.html",
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha --exit"
+    },
+    "license": "Apache 2.0",
+    "dependencies": {
+        "@iobroker/adapter-core": "^1.0.3"
     }
-  ],
-  "keywords": [
-    "ioBroker",
-    "GUI",
-    "DashUI",
-    "web interface",
-    "home automation",
-    "SCADA",
-    "fancyswitch GUI"
-  ],
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-replace": "^1.0.1",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-jscs": "^3.0.1",
-    "grunt-http": "^2.2.0",
-    "mocha": "^4.1.0",
-    "chai": "^4.1.2"
-  },
-  "bugs": {
-    "url": "https://github.com/ioBroker/ioBroker.vis-fancyswitch/issues"
-  },
-  "main": "widgets/fancyswitch.html",
-  "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --exit"
-  },
-  "license": "Apache 2.0",
-  "dependencies": {
-    "@iobroker/adapter-core": "^1.0.3"
-  }
 }
