@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "vis-fancyswitch",
-        "version": "1.1.0",
+        "version": "1.1.1",
         "title": "ioBroker Visualisation - fancyswitch style Widgets",
         "news": {
             "1.1.0": {
@@ -33,7 +33,7 @@
             "graphical",
             "scada"
         ],
-        "readme": "https://github.com/ioBroker/ioBroker.vis-fancyswitch/blob/master/README.md",
+        "readme": "https://github.com/itProfi/ioBroker.vis-fancyswitch/blob/master/README.md",
         "authors": [
             "bluefox <dogafox@gmail.com>"
         ],
