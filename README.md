@@ -12,6 +12,9 @@ fancyswitch - Switch widgets for ioBroker.vis ported from http://papermashup.com
 
 ## Changelog
 
+### 1.1.1 (2020-09-16)
+- (erer) Add new button fancyswitch-7
+
 ### 1.1.0 (2016-07-17)
 - (Apollon77) Enhance handling of boolean and textual values for on/off
 
